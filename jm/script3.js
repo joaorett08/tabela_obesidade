@@ -28,3 +28,7 @@ function classificarIMC(imc){
         alert( "abaixo do peso")
     }
 }
+function gerarrelatório(peso, altura){
+    let imc = calcularIMC(peso, altura)
+    classificarIMC(imc)
+}
